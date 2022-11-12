@@ -34,10 +34,10 @@
 ### 1.Рефакторинг программы за счет максимального использования регистров процессора:
 Были реализованы все увиденные возможные замены локальных переменных на регистры процессора:
 
-r12d вместо итераторов i в for
-r13d вместо итераторов j в for
-flag заменён на r14d
-max_size заменён на r15d
+<br>r12d вместо итераторов i в for
+<br>r13d вместо итераторов j в for
+<br>flag заменён на r14d
+<br>max_size заменён на r15d
 
    > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/main_mod.s)
    > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
