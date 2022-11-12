@@ -22,7 +22,7 @@
    ### Файл изменений:
    > * [Список изменений](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/md-files/changes1.md)
  
- ### 4. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/tests.md).
+ ### 4. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Tests.md).
 ## На 5 баллов:
  ### 1. В приведённом выше решении задачи на C используются локальные переменные, такие как flag и max_size, а так же 1 функция void change_string(char *str) с 1 параметром.
    > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/main.c)
@@ -41,6 +41,6 @@ max_size заменён на r15d
 
    > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
    > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
-### 2. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/tests.md).
+### 2. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Tests.md).
 
 
