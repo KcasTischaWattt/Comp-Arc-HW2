@@ -15,3 +15,11 @@
     
    ### <br> Вот файлик со всеми переменными для удобства:
    > * [Переменные](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Variables.md)
+   
+### 3. Программа промодифицирована флагами компиляции, затем изменена вручную:
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+   ### Файл изменений:
+   > * [Список изменений](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/md-files/changes1.md)
+ 
+ ### 4. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/tests.md).
