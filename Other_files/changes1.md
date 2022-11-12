@@ -88,12 +88,50 @@
 
 ## Удалённые переприсваивания
 ### main_mod.s
-*  /- mov	rax, rsp
-   /- mov	rbx, rax
-   /+ mov	rbx, rsp
-
-*  - mov	rax, rsp
-   - mov	rbx, rax
-   + mov	rbx, rsp
+*     - mov rax, rsp
+      - mov rbx, rax 
+      + mov rbx, rsp
+*     - mov rax, QWORD PTR -128[rbp] 
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -128[rbp]
+*     - mov ecx, DWORD PTR -184[rbp]
+      - mov esi, ecx
+      + mov esi, DWORD PTR -184[rbp] 
+*     - mov rax, QWORD PTR -112[rbp]
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -112[rbp]
+*     - mov rax, QWORD PTR -88[rbp]
+      - mov rdi, rax
+      + mov rdi, QWORD PTR -88[rbp]
+*     - mov eax, DWORD PTR -184[rbp]
+      - mov esi, eax 
+      + mov esi, DWORD PTR -184[rbp]
+*     - mov ecx, DWORD PTR -184[rbp]
+      - mov esi, ecx 
+      + mov esi, DWORD PTR -184[rbp]
+*     - mov rax, QWORD PTR -152[rbp]
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -152[rbp]
+*     - mov edx, DWORD PTR -184[rbp]
+      - mov esi, edx 
+      + mov esi, DWORD PTR -184[rbp]
+*     - mov rax, QWORD PTR -136[rbp]
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -136[rbp]
+*     - mov eax, DWORD PTR -176[rbp]
+      - mov esi, eax
+      + mov esi, DWORD PTR -176[rbp]
+*     - mov ecx, DWORD PTR -184[rbp]
+      - mov esi, ecx
+      + mov esi, DWORD PTR -184[rbp]
+*     - mov rax, QWORD PTR -152[rbp]
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -152[rbp]
+*     - mov edx, DWORD PTR -184[rbp]
+      - mov esi, edx 
+      + mov esi, DWORD PTR -184[rbp]
+*     - mov rax, QWORD PTR -136[rbp]
+      - mov rdi, rax 
+      + mov rdi, QWORD PTR -136[rbp]
 
 
