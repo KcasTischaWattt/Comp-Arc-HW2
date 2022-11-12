@@ -20,7 +20,7 @@
    > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/main_mod.s)
    > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
    ### Файл изменений:
-   > * [Список изменений](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/md-files/changes1.md)
+   > * [Список изменений](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/changes1.md)
  
  ### 4. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Tests.md).
 ## На 5 баллов:
