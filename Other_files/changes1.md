@@ -62,7 +62,9 @@
 >	mov	rax, rsp
 >	add	rax, 0
 >	mov	QWORD PTR -40[rbp], rax	# str
+
 <br>Стало:
+
 >    movsx rdx, eax
 >    sub rdx, 1
 >    mov QWORD PTR [rbp-32], rdx
