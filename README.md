@@ -17,8 +17,8 @@
    > * [Переменные](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Variables.md)
    
 ### 3. Программа промодифицирована флагами компиляции, затем изменена вручную:
-   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
-   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
    ### Файл изменений:
    > * [Список изменений](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/md-files/changes1.md)
  
@@ -28,8 +28,8 @@
    > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/main.c)
    > * [changestring.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/changesring.c)
  ### 2. В ассемблерный код были добавлены комментарии, поясняющие передачу параметров в метод, а так же связь параметров метода с регистрами.
-   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
-   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
 ## На 6 баллов:
 ### 1.Рефакторинг программы за счет максимального использования регистров процессора:
 Были реализованы все увиденные возможные замены локальных переменных на регистры процессора:
@@ -39,8 +39,8 @@ r13d вместо итераторов j в for
 flag заменён на r14d
 max_size заменён на r15d
 
-   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
-   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
 ### 2. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Tests.md).
 
 
