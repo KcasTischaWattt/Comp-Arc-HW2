@@ -15,8 +15,7 @@
    ```.ident	"GCC: (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0```
    <br> за ненадобностью;
 3. Удалены лишние переприсваивания - они перечислены в конце файла.
-4. Часть подобных переприсваиваний удалить не получилось - приводило к ошибкам компиляции или Seg fault.
-5. Была изменена инициализация массива str[] в main_mod.s.
+4. Была изменена инициализация массива str[] в main_mod.s.
 <br> Было:
 >     mov   eax, DWORD PTR -20[rbp]
 >     movsx	rdx, eax
@@ -86,3 +85,35 @@
 >     mov rax, rsp
 >     add rax, 0
 >     mov QWORD PTR [rbp-40], rax
+
+## Удалённые переприсваивания
+### main_mod.s
+>  - mov	rax, rsp
+>  - mov	rbx, rax
+>  + mov	rbx, rsp
+
+<br>
+
+>  - mov	rax, rsp
+>  - mov	rbx, rax
+>  + mov	rbx, rsp
+
+<br>
+
+>  - mov	rax, rsp
+>  - mov	rbx, rax
+>  + mov	rbx, rsp
+
+<br>
+
+>  - mov	rax, rsp
+>  - mov	rbx, rax
+>  + mov	rbx, rsp
+
+<br>
+
+>  - mov	rax, rsp
+>  - mov	rbx, rax
+>  + mov	rbx, rsp
+
+<br>
