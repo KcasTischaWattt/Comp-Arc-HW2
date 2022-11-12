@@ -66,23 +66,23 @@
 
 <br>Стало:
 
->    movsx rdx, eax
->    sub rdx, 1
->    mov QWORD PTR [rbp-32], rdx
->    movsx rdx, eax
->    mov r8, rdx
->    mov r9d, 0
->    movsx rdx, eax
->    mov rsi, rdx
->    mov edi, 0
->    mov edx, 16
->    sub rdx, 1
->    add rax, rdx
->    mov ecx, 16
->    mov edx, 0
->    div rcx
->    imul rax, rax, 16
->    sub rsp, rax
->    mov rax, rsp
->    add rax, 0
->    mov QWORD PTR [rbp-40], rax
+>     movsx rdx, eax
+>     sub rdx, 1
+>     mov QWORD PTR [rbp-32], rdx
+>     movsx rdx, eax
+>     mov r8, rdx
+>     mov r9d, 0
+>     movsx rdx, eax
+>     mov rsi, rdx
+>     mov edi, 0
+>     mov edx, 16
+>     sub rdx, 1
+>     add rax, rdx
+>     mov ecx, 16
+>     mov edx, 0
+>     div rcx
+>     imul rax, rax, 16
+>     sub rsp, rax
+>     mov rax, rsp
+>     add rax, 0
+>     mov QWORD PTR [rbp-40], rax
