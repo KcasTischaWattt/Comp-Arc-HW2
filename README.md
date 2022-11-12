@@ -27,4 +27,20 @@
  ### 1. В приведённом выше решении задачи на C используются локальные переменные, такие как flag и max_size, а так же 1 функция void change_string(char *str) с 1 параметром.
    > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/main.c)
    > * [changestring.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/changesring.c)
- ### 2. В приведённом выше решении задачи на C используются локальные переменные, такие как flag и max_size, а так же 1 функция void change_string(char *str) с 1 параметром.
+ ### 2. В ассемблерный код были добавлены комментарии, поясняющие передачу параметров в метод, а так же связь параметров метода с регистрами.
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+## На 6 баллов:
+### 1.Рефакторинг программы за счет максимального использования регистров процессора:
+Были реализованы все увиденные возможные замены локальных переменных на регистры процессора:
+
+r12d вместо итераторов i в for
+r13d вместо итераторов j в for
+flag заменён на r14d
+max_size заменён на r15d
+
+   > * [main_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/main_mod.s)
+   > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/asm-files/mod/input_array_mod.s)
+### 2. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/tests.md).
+
+
