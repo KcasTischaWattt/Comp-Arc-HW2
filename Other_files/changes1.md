@@ -100,9 +100,9 @@
 
 <br>
 
->  - mov	rax, rsp
->  - mov	rbx, rax
->  + mov	rbx, rsp
+>  -- mov	rax, rsp
+>  -- mov	rbx, rax
+>  ++ mov	rbx, rsp
 
 <br>
 
