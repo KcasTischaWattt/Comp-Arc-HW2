@@ -27,3 +27,4 @@
  ### 1. В приведённом выше решении задачи на C используются локальные переменные, такие как flag и max_size, а так же 1 функция void change_string(char *str) с 1 параметром.
    > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/main.c)
    > * [changestring.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/changesring.c)
+ ### 2. В приведённом выше решении задачи на C используются локальные переменные, такие как flag и max_size, а так же 1 функция void change_string(char *str) с 1 параметром.
