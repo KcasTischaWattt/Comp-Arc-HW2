@@ -14,4 +14,4 @@
    > * [changestring.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly/changestring.s)
     
    ### <br> Вот файлик со всеми переменными для удобства:
-   > * [Переменные](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/Variables.md)
+   > * [Переменные](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Variables.md)
