@@ -5,8 +5,8 @@
 
 ## На 4 балла:
  ### 1. Приведено решение задачи на С:
-   > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/C-files/main.c)
-   > * [changestring.c](https://github.com/KcasTischaWattt/Comp-Arc-HW1/blob/main/C-files/input_array.c)
+   > * [main.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/main.c)
+   > * [changestring.c](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/c_files/changesring.c)
    
 ### 2. Программа проассемблирована и откомпилирована без оптимизирующих опций, в коде программы прокомментированы переменные:
    > * [main.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly/main.s)
