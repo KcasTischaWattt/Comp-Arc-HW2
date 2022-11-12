@@ -18,50 +18,51 @@
 4. Часть подобных переприсваиваний удалить не получилось - приводило к ошибкам компиляции или Seg fault.
 5. Была изменена инициализация массива str[] в main_mod.s.
 <br> Было:
->  mov	eax, DWORD PTR -20[rbp]
->	movsx	rdx, eax
->	sub	rdx, 1
->	mov	QWORD PTR -32[rbp], rdx
->	movsx	rdx, eax
->	mov	r8, rdx
->	mov	r9d, 0
->	movsx	rdx, eax
->	mov	rsi, rdx
->	mov	edi, 0
->	mov	edx, 16
->	sub	rdx, 1	
->	add	rax, rdx
->	mov	ecx, 16
->	mov	edx, 0	
->	div	rcx	
->	imul	rax, rax, 16
->	mov	rdx, rax
->	and	rdx, -4096
->	mov	rcx, rsp
->	sub	rcx, rdx
->	mov	rdx, rcx
->.L2:
->	cmp	rsp, rdx
->	je	.L3
->	sub	rsp, 4096
->	or	QWORD PTR 4088[rsp], 0	
->	jmp	.L2	
->.L3:
->	mov	rdx, rax
->	and	edx, 4095
->	sub	rsp, rdx
->	mov	rdx, rax
->	and	edx, 4095
->	test	rdx, rdx
->	je	.L4
->	and	eax, 4095
->	sub	rax, 8
->	add	rax, rsp
->	or	QWORD PTR [rax], 0
->.L4:
->	mov	rax, rsp
->	add	rax, 0
->	mov	QWORD PTR -40[rbp], rax	# str
+>     mov   eax, DWORD PTR -20[rbp]
+>     movsx	rdx, eax
+>     sub	rdx, 1
+>     mov	QWORD PTR -32[rbp], rdx
+>     movsx	rdx, eax
+>     mov	r8, rdx
+>     mov	r9d, 0
+>     movsx	rdx, eax
+>     mov	rsi, rdx
+>     mov	edi, 0
+>     mov	edx, 16
+>     sub	rdx, 1
+>     add	rax, rdx
+>     mov	ecx, 16
+>     mov	edx, 0	
+>     div	rcx
+>     imul	rax, rax, 16
+>     mov	rdx, rax
+>     and	rdx, -4096
+>     mov	rcx, rsp
+>     sub	rcx, rdx
+>     mov	rdx, rcx
+>     .L2:
+>     cmp	rsp, rdx
+>     je	.L3
+>     sub	rsp, 4096
+>     or	QWORD PTR 4088[rsp], 0
+>     jmp	.L2
+>     .L3:
+>     mov	rdx, rax
+>     and	edx, 4095
+>     sub	rsp, rdx
+>     mov	rdx, rax
+>     and	edx, 4095
+>     test	rdx, rdx
+>     je	.L4
+>     and	eax, 4095
+>     sub	rax, 8
+>     add	rax, rsp
+>     or	QWORD PTR [rax], 0
+>     .L4:
+>     mov	rax, rsp
+>     add	rax, 0
+>     mov	QWORD PTR -40[rbp], rax	# str
+
 
 <br>Стало:
 
