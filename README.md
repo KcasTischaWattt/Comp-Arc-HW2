@@ -43,4 +43,9 @@
    > * [changestring_mod.s](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Assembly_mod/changestring_mod.s)
 ### 2. Проведено тестирование, результаты указаны в [документе](https://github.com/KcasTischaWattt/Comp-Arc-HW2/blob/main/Other_files/Tests.md).
 
+### 3. Так как замеров времени данной оценкой не предусмотрено, я могу лишь сравнить размеры исполняемых файлов и количество строк.
+Размер исполняемого файла:
+>  Программа на С:
+>  Ассемблерная программа без модификаций:
+>  Финальная ассемблерная программа с модификациями:
 
